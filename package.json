@@ -23,7 +23,8 @@
     "hubot-rules": "^1.0.0",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.1",
-    "hubot-slack": "^4.7.2"
+    "hubot-slack": "^4.7.2",
+    "node": "^12.13.1"
   },
   "engines": {
     "node": "0.10.x"
