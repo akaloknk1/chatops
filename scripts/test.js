@@ -6,7 +6,7 @@ module.exports = function (robot) {
 
     robot.hear(/date/i, function (res){
         console.log("getting date", new Date());
-        res.send (new Date());
+        res.send ((new Date()).toString());
         });
 
     robot.hear(/test1/i, function (msg){
