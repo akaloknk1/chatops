@@ -4,6 +4,11 @@ module.exports = function (robot) {
     res.send ("good");
     });
 
+    robot.hear(/date/i, function (res){
+        console.log("getting date", new Date());
+        res.send (new Date());
+        });
+
     robot.hear(/test1/i, function (msg){
         var today = new Date();
 

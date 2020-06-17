@@ -6,7 +6,7 @@
   "description": "A simple helpful robot for your Company",
   "scripts": {
     "start": ".\\bin\\hubot --adapter slack",
-    "gitpush": "git add . && git commit -m 'changes' && git push origin master"
+    "gitpush": "git add . && git commit -m 'changes' && git push master master"
   },
   "dependencies": {
     "decode-html": "^2.0.0",
