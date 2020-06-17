@@ -4,6 +4,9 @@
   "private": true,
   "author": "akaloknk1@gmail.com",
   "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "start": ".\\bin\\hubot --adapter slack"
+  },
   "dependencies": {
     "decode-html": "^2.0.0",
     "fetch": "^1.1.0",
